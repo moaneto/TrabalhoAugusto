@@ -150,7 +150,7 @@ textarea{
     height: 90px;
     resize: none;
 }
-
+/*BOTÕES*/
 input[type=submit]{
     display: block;   
     border: none;
@@ -164,7 +164,25 @@ input[type=submit]{
     color: #ffffff;    
     font: normal normal 20px/57px "Arial", sans-serif;
     text-align: center;
+
 }
+
+input[type=reset]{
+    display: block;   
+    border: none;
+    outline: 0;
+    cursor: pointer;    
+    margin: 0 auto;
+    background-color: #809b9e;
+    border-radius: 5px;
+    width: 100px;
+    height: 57px;
+    color: #ffffff;    
+    font: normal normal 20px/17px "Arial", sans-serif;
+    text-align: center;
+  
+}
+/*[B]OTÕES*/
 /*FIM DO CSS FORMULARIO*/
 
 
