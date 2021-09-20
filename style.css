@@ -6,7 +6,6 @@
 
 
 body {
-    background: url(https://images-ext-1.discordapp.net/external/tcpZvswH9JxBDPZVeL8r0aR7R77dwzexes0xDLtkPO0/https/blog.simplusbr.com/wp-content/uploads/2021/04/oficina-mecanica-movel.png) no-repeat center top fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,11 +18,13 @@ html{
 }
 
 body{
-    background:  #e85d2c;
+    background-color: #2C2E30;
+ 
     font-family: 'Poppins', sans-serif;    
 }
 
 header {
+    
     margin-top: 25px;
     margin-bottom: 30px;
     height: 80px;
@@ -64,7 +65,8 @@ header>nav>a:hover:after {
 }
 
 #header_barramenu {
-    margin-top: 10px;
+    background-color: #e85d2c;
+    margin-top: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -107,13 +109,11 @@ h2 {
 }
 
 #sobre{
-   
-    width: 500px;
+    background:  #e85d2c;
     font-size: large;
+    width: auto;
     margin: auto;
-    width: 600px;
-    margin: auto;
-    color:#fff;
+    color:rgb(255, 255, 255);
     
 }
 
