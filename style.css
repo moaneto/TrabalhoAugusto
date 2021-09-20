@@ -19,7 +19,7 @@ html{
 }
 
 body{
-    background: #fcf9f9;
+    background:  #e85d2c;
     font-family: 'Poppins', sans-serif;    
 }
 
@@ -54,6 +54,15 @@ header>nav>a:hover:after {
     border: solid 3px #ffffff;
 }
 
+#image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+#corpo {
+    align-items: left;
+}
+
 #header_barramenu {
     margin-top: 10px;
     display: flex;
@@ -67,6 +76,8 @@ header>nav>a:hover:after {
 
 #header-menu {
     margin: auto;
+    color: rgb(0, 0, 0);
+
 }
 
 #header-menu>a:hover{
@@ -76,7 +87,17 @@ header>nav>a:hover:after {
 #header-logo {
     margin: auto;
 }
-
+h2 {
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 15px;
+    margin: auto;
+    display: inline-block;
+    width: 500px;
+    
+}
 
 #estiloHR{
     height:5px;
@@ -86,10 +107,14 @@ header>nav>a:hover:after {
 }
 
 #sobre{
-    margin: auto;
+   
     width: 500px;
+    font-size: large;
     margin: auto;
-    background-color:rgba(221, 204, 207, 0.39);
+    width: 600px;
+    margin: auto;
+    color:#fff;
+    
 }
 
 
@@ -201,3 +226,4 @@ footer {
 footer>section>a{
     color: #54565A;
 }
+
